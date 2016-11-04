@@ -1,0 +1,6 @@
+framework module VVISFKit {
+  umbrella header "VVISFKit.h"
+
+  export *
+  module * { export * }
+}

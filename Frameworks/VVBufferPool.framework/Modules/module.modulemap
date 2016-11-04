@@ -1,0 +1,6 @@
+framework module VVBufferPool {
+  umbrella header "VVBufferPool.h"
+
+  export *
+  module * { export * }
+}

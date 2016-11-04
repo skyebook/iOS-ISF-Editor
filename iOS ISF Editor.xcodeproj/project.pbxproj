@@ -7,14 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D3B3F87A98A85E314C7DC /* Pods_iOS_ISF_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DFE17FC8F2B426CC963C1F /* Pods_iOS_ISF_Editor.framework */; };
 		EEDCD5CC1DCD29ED00E14082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCD5CB1DCD29ED00E14082 /* AppDelegate.swift */; };
 		EEDCD5CE1DCD29ED00E14082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCD5CD1DCD29ED00E14082 /* ViewController.swift */; };
 		EEDCD5D11DCD29ED00E14082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDCD5CF1DCD29ED00E14082 /* Main.storyboard */; };
 		EEDCD5D31DCD29ED00E14082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDCD5D21DCD29ED00E14082 /* Assets.xcassets */; };
 		EEDCD5D61DCD29ED00E14082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDCD5D41DCD29ED00E14082 /* LaunchScreen.storyboard */; };
+		EEDCD5E51DCD2A8B00E14082 /* DDMathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E11DCD2A8B00E14082 /* DDMathParser.framework */; };
+		EEDCD5E61DCD2A8B00E14082 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E21DCD2A8B00E14082 /* VVBasics.framework */; };
+		EEDCD5E71DCD2A8B00E14082 /* VVBufferPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E31DCD2A8B00E14082 /* VVBufferPool.framework */; };
+		EEDCD5E81DCD2A8B00E14082 /* VVISFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E41DCD2A8B00E14082 /* VVISFKit.framework */; };
+		EEDCD5E91DCD2A9300E14082 /* DDMathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E11DCD2A8B00E14082 /* DDMathParser.framework */; };
+		EEDCD5EA1DCD2A9300E14082 /* DDMathParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E11DCD2A8B00E14082 /* DDMathParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EEDCD5EB1DCD2A9300E14082 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E21DCD2A8B00E14082 /* VVBasics.framework */; };
+		EEDCD5EC1DCD2A9300E14082 /* VVBasics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E21DCD2A8B00E14082 /* VVBasics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EEDCD5ED1DCD2A9300E14082 /* VVBufferPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E31DCD2A8B00E14082 /* VVBufferPool.framework */; };
+		EEDCD5EE1DCD2A9300E14082 /* VVBufferPool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E31DCD2A8B00E14082 /* VVBufferPool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EEDCD5EF1DCD2A9300E14082 /* VVISFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E41DCD2A8B00E14082 /* VVISFKit.framework */; };
+		EEDCD5F01DCD2A9300E14082 /* VVISFKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEDCD5E41DCD2A8B00E14082 /* VVISFKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EEDCD5F31DCD2AB300E14082 /* VideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCD5F21DCD2AB300E14082 /* VideoSource.swift */; };
+		EEDCD5F91DCD2AFD00E14082 /* sup.fs in Resources */ = {isa = PBXBuildFile; fileRef = EEDCD5F61DCD2AFD00E14082 /* sup.fs */; };
+		EEDCD5FA1DCD2AFD00E14082 /* 360_0014.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EEDCD5F81DCD2AFD00E14082 /* 360_0014.mp4 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EEDCD5F11DCD2A9300E14082 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EEDCD5F01DCD2A9300E14082 /* VVISFKit.framework in Embed Frameworks */,
+				EEDCD5EA1DCD2A9300E14082 /* DDMathParser.framework in Embed Frameworks */,
+				EEDCD5EC1DCD2A9300E14082 /* VVBasics.framework in Embed Frameworks */,
+				EEDCD5EE1DCD2A9300E14082 /* VVBufferPool.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		33DFE17FC8F2B426CC963C1F /* Pods_iOS_ISF_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ISF_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A865F148964E3FF87658AA9 /* Pods-iOS ISF Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ISF Editor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ISF Editor/Pods-iOS ISF Editor.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2936FDDC9A8C1FCB4BEC03 /* Pods-iOS ISF Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ISF Editor.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ISF Editor/Pods-iOS ISF Editor.release.xcconfig"; sourceTree = "<group>"; };
 		EEDCD5C81DCD29ED00E14082 /* iOS ISF Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS ISF Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDCD5CB1DCD29ED00E14082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEDCD5CD1DCD29ED00E14082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +58,13 @@
 		EEDCD5D21DCD29ED00E14082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDCD5D51DCD29ED00E14082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDCD5D71DCD29ED00E14082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDCD5E11DCD2A8B00E14082 /* DDMathParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DDMathParser.framework; sourceTree = "<group>"; };
+		EEDCD5E21DCD2A8B00E14082 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVBasics.framework; sourceTree = "<group>"; };
+		EEDCD5E31DCD2A8B00E14082 /* VVBufferPool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVBufferPool.framework; sourceTree = "<group>"; };
+		EEDCD5E41DCD2A8B00E14082 /* VVISFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVISFKit.framework; sourceTree = "<group>"; };
+		EEDCD5F21DCD2AB300E14082 /* VideoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSource.swift; sourceTree = "<group>"; };
+		EEDCD5F61DCD2AFD00E14082 /* sup.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sup.fs; sourceTree = "<group>"; };
+		EEDCD5F81DCD2AFD00E14082 /* 360_0014.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 360_0014.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +72,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D3B3F87A98A85E314C7DC /* Pods_iOS_ISF_Editor.framework in Frameworks */,
+				EEDCD5EB1DCD2A9300E14082 /* VVBasics.framework in Frameworks */,
+				EEDCD5ED1DCD2A9300E14082 /* VVBufferPool.framework in Frameworks */,
+				EEDCD5E81DCD2A8B00E14082 /* VVISFKit.framework in Frameworks */,
+				EEDCD5EF1DCD2A9300E14082 /* VVISFKit.framework in Frameworks */,
+				EEDCD5E61DCD2A8B00E14082 /* VVBasics.framework in Frameworks */,
+				EEDCD5E91DCD2A9300E14082 /* DDMathParser.framework in Frameworks */,
+				EEDCD5E71DCD2A8B00E14082 /* VVBufferPool.framework in Frameworks */,
+				EEDCD5E51DCD2A8B00E14082 /* DDMathParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DBCB1AE64C5C79E3C180FC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33DFE17FC8F2B426CC963C1F /* Pods_iOS_ISF_Editor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E98ADAC5EFA7F77BB2AD39F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A865F148964E3FF87658AA9 /* Pods-iOS ISF Editor.debug.xcconfig */,
+				7C2936FDDC9A8C1FCB4BEC03 /* Pods-iOS ISF Editor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EEDCD5BF1DCD29ED00E14082 = {
 			isa = PBXGroup;
 			children = (
+				EEDCD5E01DCD2A8B00E14082 /* Frameworks */,
 				EEDCD5CA1DCD29ED00E14082 /* iOS ISF Editor */,
 				EEDCD5C91DCD29ED00E14082 /* Products */,
+				6E98ADAC5EFA7F77BB2AD39F /* Pods */,
+				5DBCB1AE64C5C79E3C180FC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,52 @@
 		EEDCD5CA1DCD29ED00E14082 /* iOS ISF Editor */ = {
 			isa = PBXGroup;
 			children = (
+				EEDCD5F41DCD2AE800E14082 /* Resources */,
 				EEDCD5CB1DCD29ED00E14082 /* AppDelegate.swift */,
 				EEDCD5CD1DCD29ED00E14082 /* ViewController.swift */,
+				EEDCD5F21DCD2AB300E14082 /* VideoSource.swift */,
 				EEDCD5CF1DCD29ED00E14082 /* Main.storyboard */,
 				EEDCD5D21DCD29ED00E14082 /* Assets.xcassets */,
 				EEDCD5D41DCD29ED00E14082 /* LaunchScreen.storyboard */,
 				EEDCD5D71DCD29ED00E14082 /* Info.plist */,
 			);
 			path = "iOS ISF Editor";
+			sourceTree = "<group>";
+		};
+		EEDCD5E01DCD2A8B00E14082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDCD5E11DCD2A8B00E14082 /* DDMathParser.framework */,
+				EEDCD5E21DCD2A8B00E14082 /* VVBasics.framework */,
+				EEDCD5E31DCD2A8B00E14082 /* VVBufferPool.framework */,
+				EEDCD5E41DCD2A8B00E14082 /* VVISFKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEDCD5F41DCD2AE800E14082 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEDCD5F51DCD2AFD00E14082 /* Shaders */,
+				EEDCD5F71DCD2AFD00E14082 /* Videos */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEDCD5F51DCD2AFD00E14082 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EEDCD5F61DCD2AFD00E14082 /* sup.fs */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		EEDCD5F71DCD2AFD00E14082 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				EEDCD5F81DCD2AFD00E14082 /* 360_0014.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +181,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEDCD5DA1DCD29ED00E14082 /* Build configuration list for PBXNativeTarget "iOS ISF Editor" */;
 			buildPhases = (
+				7975381A1C6C84E22EA81A16 /* [CP] Check Pods Manifest.lock */,
 				EEDCD5C41DCD29ED00E14082 /* Sources */,
 				EEDCD5C51DCD29ED00E14082 /* Frameworks */,
 				EEDCD5C61DCD29ED00E14082 /* Resources */,
+				A885C7CD356C7E908EAE79DA /* [CP] Embed Pods Frameworks */,
+				DC3EB214D385F656367E3AAE /* [CP] Copy Pods Resources */,
+				EEDCD5F11DCD2A9300E14082 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +239,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDCD5D61DCD29ED00E14082 /* LaunchScreen.storyboard in Resources */,
+				EEDCD5F91DCD2AFD00E14082 /* sup.fs in Resources */,
 				EEDCD5D31DCD29ED00E14082 /* Assets.xcassets in Resources */,
 				EEDCD5D11DCD29ED00E14082 /* Main.storyboard in Resources */,
+				EEDCD5FA1DCD2AFD00E14082 /* 360_0014.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7975381A1C6C84E22EA81A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A885C7CD356C7E908EAE79DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ISF Editor/Pods-iOS ISF Editor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3EB214D385F656367E3AAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ISF Editor/Pods-iOS ISF Editor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEDCD5C41DCD29ED00E14082 /* Sources */ = {
@@ -139,6 +303,7 @@
 			files = (
 				EEDCD5CE1DCD29ED00E14082 /* ViewController.swift in Sources */,
 				EEDCD5CC1DCD29ED00E14082 /* AppDelegate.swift in Sources */,
+				EEDCD5F31DCD2AB300E14082 /* VideoSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +424,14 @@
 		};
 		EEDCD5DB1DCD29ED00E14082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A865F148964E3FF87658AA9 /* Pods-iOS ISF Editor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GPQ4DE6X9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "iOS ISF Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.skyebook.iOS-ISF-Editor";
@@ -272,9 +442,14 @@
 		};
 		EEDCD5DC1DCD29ED00E14082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2936FDDC9A8C1FCB4BEC03 /* Pods-iOS ISF Editor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GPQ4DE6X9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "iOS ISF Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.skyebook.iOS-ISF-Editor";
@@ -302,6 +477,7 @@
 				EEDCD5DC1DCD29ED00E14082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
